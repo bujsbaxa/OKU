@@ -1,0 +1,145 @@
+@media (max-width:1294px) {
+
+    .arrow,
+    .star,
+    .grid,
+    .view {
+        display: none;
+    }
+
+}
+
+@media (max-width:992px) {
+
+    .library__item:nth-of-type(5),
+    .library__item:nth-of-type(6) {
+        grid-column: 1 / 3;
+    }
+
+    .reviews {
+        gap: 40px;
+    }
+
+    .team__item {
+        justify-content: space-between;
+    }
+}
+
+
+@media (max-width:768px) {
+    .team__members {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    .header__content-info{
+        display: flex;
+        align-items: center;
+    }
+    .header__content-image img{
+        display: flex;
+        align-items: center;
+    }
+
+
+    .library__item:nth-of-type(2),
+    .library__item:nth-of-type(3) {
+        grid-column: 1 / 3;
+    }
+
+    .header__nav .container {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 30px;
+        column-gap: 100px;
+        justify-content: center;
+    }
+
+    .header__content {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .header__content .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__content-btn{
+        max-width: 247px;
+    }
+
+    .library__item-content1,
+    .library__item-content2 {
+        padding: 30px 0;
+    }
+
+    .reviews {
+        flex-direction: column;
+    }
+
+
+}
+
+@media (max-width:576px) {
+    .footer__nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .library__item:nth-of-type(1),
+    .library__item:nth-of-type(3),
+    .library__item:nth-of-type(4),
+    .library__item:nth-of-type(5),
+    .library__item:nth-of-type(6) {
+        padding-top: 30px;
+    }
+
+    .line,
+    .reviews__page {
+        margin-bottom: 50px;
+    }
+
+    footer {
+        padding: 40px 0;
+    }
+
+    .library__track {
+        margin-bottom: 0;
+    }
+
+    .review__left {
+        padding: 50px 20px;
+    }
+
+    .team__content {
+        padding: 20px;
+    }
+
+    .header__content .container {
+        align-items: center;
+    }
+
+    .header__content-title {
+        text-align: center;
+        font-size: 40px;
+    }
+    .review__left-title{
+        font-size: 40px;
+        text-align: center;
+    }
+    .team__title{
+        text-align: center;
+        font-size: 40px;
+    }
+    .footer__title{
+        text-align: center;
+        font-size: 42px;
+    }
+    .footer__list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
